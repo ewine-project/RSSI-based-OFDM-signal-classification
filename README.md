@@ -1,2 +1,6 @@
 # RSSI-based-OFDM-signal-classification
-RSSI-based OFDM signal classification using a machine learning algorithm.
+
+Due to limited licensed bands and the ever increasing traffic demands, the mobile communication industry is striving for offloading licensed bands traffic to unlicensed bands. A lot of challenges come along with the operation of **LTE in unlicensed bands while co-locating with legacy Wi-Fi operation** in unlicensed band. In this co-existing environment, it is imperative to **identify** the technologies so that an intelligent decision can be made for maintaining quality of service (QoS) requirement of users.
+
+Next to this unlicensed co-existing environment, a second concern is the sharing of the licensed bands where **DVB-T** operates. This is called **white space reuse**. The reuse factor used in DVB-T systems leads to unused spectrum at a given location. Users can opt to use this spectrum if and only if no DVB-T transmission is present and they transmit using less power than TV broadcast stations. It is thus necessary to periodically **sense if the spectrum is unused** by the primary user or other secondary users. On the other hand the primary user, the TV broadcast stations, will want to detect if there is illegal **use of their licensed spectrum** at the time they want to use it.
+
