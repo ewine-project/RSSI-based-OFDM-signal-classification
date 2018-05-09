@@ -14,3 +14,6 @@ The first dataset, used for training, was captured at various locations in Ghent
 A second dataset, used for validation, was captured at Dublin, Ireland. The dataset can be found [here](https://github.com/ewine-project/lte-wifi-iq-samples).
 
 ## Model description
+
+## Contact
+For further information, you can contact me at jaron.fontaine@ugent.be.
