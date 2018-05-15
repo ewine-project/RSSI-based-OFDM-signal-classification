@@ -123,4 +123,3 @@ shapedx = reshape(output,samples, sizsje(2) );
 [net,tr] = train(net, shapedx,targets);
 
 toc;
-
