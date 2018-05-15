@@ -32,7 +32,7 @@ A second dataset, used for validation, was captured at Dublin, Ireland. The data
 ## Model description
 The models for both manual and automatic feature extraction are present in *manual feature extraction/rssilearningmanual.m* and *automatic feature learning/neuralnetworkautomatic.m* respectively. Manual feature extraction uses the features as described before as input, while automatic feature extraction uses 256 RSSI values which are derived from 16 IQ samples per RSSI value. The neural network architecture of the manual model can be seen below.
 
-![Neural network - manual feature extraction - 29 input nodes / 25 hidden nodes / 10 hidden nodes / 3 output nodes for Wi-Fi, LTE and DVB-T](figures/DNN.png?s=200)
+<img src="figures/DNN.png" width="50%" alt="Neural network - manual feature extraction - 29 input nodes / 25 hidden nodes / 10 hidden nodes / 3 output nodes for Wi-Fi, LTE and DVB-T">
 
 ## Contact
 For further information, you can contact me at jaron.fontaine@ugent.be.
