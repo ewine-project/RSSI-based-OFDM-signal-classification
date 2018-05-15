@@ -30,6 +30,8 @@ The first dataset, used for training, was captured at various locations in Ghent
 A second dataset, used for validation, was captured at Dublin, Ireland. The dataset can be found [here](https://github.com/ewine-project/lte-wifi-iq-samples).
 
 ## Model description
+The models for both manual and automatic feature extraction are present in *manual feature extraction/rssilearningmanual.m* and *automatic feature learning/neuralnetworkautomatic.m* respectively. Manual feature extraction uses the features as described before as input, while automatic feature extraction uses 256 RSSI values which are derived from 16 IQ samples per RSSI value. The neural network architecture of this model can be seen below.
+
 
 ## Contact
 For further information, you can contact me at jaron.fontaine@ugent.be.
